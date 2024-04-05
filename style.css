@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Tauri", sans-serif; 
+}
+
+body{
+    overflow-x: hidden;
+}
+p{
+    text-align: justify;
+}
+:root{
+    --brown:rgb(77, 11, 11);
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+
+.nav-item i{
+    color: rgb(186, 181, 181);
+}
+
+.nav-item{
+    font-size: 20px;
+}
+#contactbtn{
+    background-color: var(--brown);
+    color: white;
+}
+
+#contactbtn:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+.main{
+    background-image: url('https://png.pngtree.com/background/20230625/original/pngtree-stylish-dining-room-with-6-chairs-a-fusion-of-wood-and-picture-image_4053674.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 120vh; */
+    background-attachment: fixed;
+    background-position: top;
+}
+.welcome{
+    padding-top: 17%;
+    padding-left: 5%;
+    color: white;
+}
+
+.welcome h1{
+    font-size: 105px;
+    letter-spacing: 3px;
+}
+
+.gallery button{
+    width: 25%;
+}
+
+@media(max-width:600px){
+    .welcome h1{
+        font-size: 50px;
+    }
+    .nav-item i{
+        display: none;
+    }
+    .gallery button{
+        width: 75%;
+    }
+}
+
+.welcome h2{
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.midSection{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/030/810/052/small/design-space-paper-textured-background-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.work{
+    padding-top: 80px;
+}
+
+.work h2{
+    font-size: 40px;
+}
+
+#btnWork{
+    border-color: var(--brown);
+    color: var(--brown);
+}
+
+#btnWork:hover{
+    color: white;
+    background-color: var(--brown);
+}
+
+.about{
+    background-color: rgba(217, 215, 215, 0.505);
+    /* height: 112vh; */
+}
+
+.bordiv{
+    width: 100%;
+    height: 490px;
+    border: 5px solid var(--brown);
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.hr{
+    width: 20%;
+    height: 5px;
+    background-color: var(--brown);
+}
+
+.para1{
+    text-align: justify;
+}
+.gallery{
+   padding-top: 5%;
+}
+.gallery h1{
+padding-bottom: 5%;
+font-weight: 500;
+}
+
+.imag1{
+    position: relative;
+}
+
+.rosewood{
+    width: 50%;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.91);
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+}
+#footer{
+    background-color: rgb(46, 46, 46);
+}
+
+
+
+
